@@ -16,8 +16,21 @@
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
+ 
+ 
+ //Codigo
 
+window.addEventListener("DOMContentLoaded",  () => {
 
+})
 
+const taskForm = document.getElementById("task-form")
 
- console.log("omra")
+taskForm.addEventListener('submit', (e) => {
+  e.preventDefault()
+
+console.log("submitted")
+
+})
+
+ 
